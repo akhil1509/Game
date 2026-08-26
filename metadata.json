@@ -1,0 +1,6 @@
+{
+  "name": "Colour Jar Fill",
+  "description": "A vibrant and satisfying colour-sorting puzzle game with realistic liquid physics, unique jars, and brain-teasing levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

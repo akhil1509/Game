@@ -1,0 +1,79 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Jar Outline & Shadow -->
+    <path
+        android:pathData="M32,40 C32,36 34,34 38,34 L46,34 C50,34 52,36 52,40 L52,72 C52,78 48,82 42,82 C36,82 32,78 32,72 Z"
+        android:fillColor="#22FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8" />
+    
+    <!-- Left Jar Liquid Top (Amber/Yellow) -->
+    <path
+        android:pathData="M33,48 L51,48 L51,59 L33,59 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Left Jar Liquid Mid (Rose/Pink) -->
+    <path
+        android:pathData="M33,59 L51,59 L51,70 L33,70 Z"
+        android:fillColor="#EC4899" />
+
+    <!-- Left Jar Liquid Bottom (Violet) -->
+    <path
+        android:pathData="M33,70 L51,70 L51,73 C51,77.5 47.5,81 42,81 C36.5,81 33,77.5 33,73 Z"
+        android:fillColor="#8B5CF6" />
+
+    <!-- Left Jar Glass Highlight -->
+    <path
+        android:pathData="M35,38 L35,76"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Right Jar (Cyan/Teal Completed Sort Glow) -->
+    <path
+        android:pathData="M56,36 C56,32 58,30 62,30 L70,30 C74,30 76,32 76,36 L76,68 C76,74 72,78 66,78 C60,78 56,74 56,68 Z"
+        android:fillColor="#2200E5FF"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.2" />
+
+    <!-- Right Jar Liquid Full (Cyan glow gradient) -->
+    <path
+        android:pathData="M57,42 L75,42 L75,69 C75,73.5 71.5,77 66,77 C60.5,77 57,73.5 57,69 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="42"
+                android:endX="66"
+                android:endY="77"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5FF" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Jar Glass Highlight -->
+    <path
+        android:pathData="M59,34 L59,72"
+        android:strokeColor="#D9FFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+
+    <!-- Pouring Droplet / Sparkles -->
+    <path
+        android:pathData="M54,26 C54,26 56,23 56,21 C56,19.5 55,18 54,18 C53,18 52,19.5 52,21 C52,23 54,26 54,26 Z"
+        android:fillColor="#38BDF8" />
+
+    <path
+        android:pathData="M78,24 L80,26 L78,28 L76,26 Z"
+        android:fillColor="#FDE047" />
+
+    <path
+        android:pathData="M28,32 L29.5,33.5 L28,35 L26.5,33.5 Z"
+        android:fillColor="#F472B6" />
+</vector>
